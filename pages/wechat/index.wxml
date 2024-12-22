@@ -1,0 +1,16 @@
+<view class="wrap">
+  <image 
+    style="width: 80%; height: 800rpx; background-color: #fff;" 
+    mode="aspectFit" 
+    src="{{selectedImage}}" 
+    show-menu-by-longpress="{{true}}">
+  </image>
+  <view class="text">长按扫描二维码，添加我好友</view>
+  <rich-text style="text-align: center;" nodes="{{info}}"></rich-text>
+</view>
+
+<view style="margin: 32rpx 32rpx;">
+  <t-button theme="primary" bindtap="handleDisagree" size="large" block>
+    一键复制微信号
+  </t-button>
+</view>

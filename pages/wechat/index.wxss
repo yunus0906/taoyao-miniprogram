@@ -1,0 +1,12 @@
+/* pages/wecaht/index.wxss */
+.wrap {
+  margin-top: 30%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.text {
+  font-weight: bold;
+  font-size: 36rpx;
+  margin-bottom: 16rpx;
+}

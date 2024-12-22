@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人微信",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "t-button": "tdesign-miniprogram/button/button"
+  }
+}
